@@ -1,0 +1,17 @@
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/nui_pan
+    username: root
+    password: 1234
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  session:
+    store-type: none
