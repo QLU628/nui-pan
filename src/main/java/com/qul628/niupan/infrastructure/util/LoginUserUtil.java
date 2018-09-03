@@ -26,7 +26,7 @@ public class LoginUserUtil {
   private static UserRepository userRepository;
 
   @Autowired
-  public static void setUserDomainService(
+  public void setUserDomainService(
       UserRepository userRepository) {
     LoginUserUtil.userRepository = userRepository;
   }
