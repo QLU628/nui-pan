@@ -35,10 +35,10 @@ public class UserDO {
   @Column(columnDefinition = "TINYINT DEFAULT 1")
   private Integer status;
 
-  @Column(name = "gmt_create",columnDefinition = "TIMESTAMP DEFAULT now()")
+  @Column(name = "gmt_create",columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
   private Date createAt;
 
-  @Column(name = "gmt_update",columnDefinition = "TIMESTAMP DEFAULT now()")
+  @Column(name = "gmt_update",columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
   private Date updateAt;
 
 }
