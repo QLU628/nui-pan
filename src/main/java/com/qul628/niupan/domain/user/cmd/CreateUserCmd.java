@@ -1,4 +1,4 @@
-package com.qul628.niupan.domain.cmd;
+package com.qul628.niupan.domain.user.cmd;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

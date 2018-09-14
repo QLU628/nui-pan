@@ -1,4 +1,4 @@
-package com.qul628.niupan.domain;
+package com.qul628.niupan.domain.user;
 
 import com.qul628.niupan.base.constant.CommonStatus;
 

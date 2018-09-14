@@ -1,8 +1,8 @@
-package com.qul628.niupan.domain.repository;
+package com.qul628.niupan.domain.user.repository;
 
-import com.qul628.niupan.domain.User;
-import com.qul628.niupan.domain.cmd.CreateUserCmd;
-import com.qul628.niupan.domain.repository.assembler.UserAssembler;
+import com.qul628.niupan.domain.user.User;
+import com.qul628.niupan.domain.user.cmd.CreateUserCmd;
+import com.qul628.niupan.domain.user.repository.assembler.UserAssembler;
 import com.qul628.niupan.port.persistence.dao.UserDAO;
 import com.qul628.niupan.port.persistence.dataobject.UserDO;
 

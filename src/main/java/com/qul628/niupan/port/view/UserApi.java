@@ -1,9 +1,9 @@
 package com.qul628.niupan.port.view;
 
 import com.qul628.niupan.base.dto.HttpWrapper;
-import com.qul628.niupan.domain.User;
-import com.qul628.niupan.domain.cmd.LoginCmd;
-import com.qul628.niupan.domain.service.UserDomainService;
+import com.qul628.niupan.domain.user.User;
+import com.qul628.niupan.domain.user.cmd.LoginCmd;
+import com.qul628.niupan.domain.user.service.UserDomainService;
 import com.qul628.niupan.infrastructure.util.LoginUserUtil;
 import com.qul628.niupan.port.view.assembler.UserAssembler;
 import com.qul628.niupan.port.view.form.LoginForm;

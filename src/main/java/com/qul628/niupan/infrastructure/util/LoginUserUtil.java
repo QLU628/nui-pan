@@ -1,7 +1,7 @@
 package com.qul628.niupan.infrastructure.util;
 
-import com.qul628.niupan.domain.User;
-import com.qul628.niupan.domain.repository.UserRepository;
+import com.qul628.niupan.domain.user.User;
+import com.qul628.niupan.domain.user.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

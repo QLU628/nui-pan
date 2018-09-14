@@ -1,8 +1,8 @@
-package com.qul628.niupan.domain.service;
+package com.qul628.niupan.domain.user.service;
 
-import com.qul628.niupan.domain.User;
-import com.qul628.niupan.domain.cmd.CreateUserCmd;
-import com.qul628.niupan.domain.cmd.LoginCmd;
+import com.qul628.niupan.domain.user.User;
+import com.qul628.niupan.domain.user.cmd.CreateUserCmd;
+import com.qul628.niupan.domain.user.cmd.LoginCmd;
 
 /**
  * @author huahua

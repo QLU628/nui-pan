@@ -1,6 +1,6 @@
 package com.qul628.niupan.port.view.assembler;
 
-import com.qul628.niupan.domain.User;
+import com.qul628.niupan.domain.user.User;
 import com.qul628.niupan.port.view.vo.UserVO;
 
 /**

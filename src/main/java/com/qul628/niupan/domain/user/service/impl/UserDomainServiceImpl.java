@@ -1,10 +1,10 @@
-package com.qul628.niupan.domain.service.impl;
+package com.qul628.niupan.domain.user.service.impl;
 
-import com.qul628.niupan.domain.User;
-import com.qul628.niupan.domain.cmd.CreateUserCmd;
-import com.qul628.niupan.domain.cmd.LoginCmd;
-import com.qul628.niupan.domain.repository.UserRepository;
-import com.qul628.niupan.domain.service.UserDomainService;
+import com.qul628.niupan.domain.user.User;
+import com.qul628.niupan.domain.user.cmd.CreateUserCmd;
+import com.qul628.niupan.domain.user.cmd.LoginCmd;
+import com.qul628.niupan.domain.user.repository.UserRepository;
+import com.qul628.niupan.domain.user.service.UserDomainService;
 import com.qul628.niupan.infrastructure.util.LoginUserUtil;
 
 import org.springframework.stereotype.Service;
